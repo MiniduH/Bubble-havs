@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Bubble Havs</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-wrapper">
+      <div class="nav-container">
+        <img src="/Assets/Primary Logo.png" alt="logo" class="nav-icon icon-logo">
+    
+        <button class="hamburger" id="hamburger">&#9776;</button>
+    
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faqs">FAQs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          <li class="nav-icon"><img src="/Assets/cart-icon.png" alt="Icon-cart" class="icon-cart"></li>
+        </ul>  
+    </nav>
+
+    <div class="responsive-menu" id="mobileMenu">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About Us</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#faqs" class="nav-link">FAQs</a>
+      <a href="#contact" class="nav-link">Contact Us</a>
+      <img src="/Assets/cart-icon.png" alt="Icon-cart" class="icon-cart">
+    </div>
+    
+    
+
+    
+       <!-- Hero Section -->
+       <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Joy in Every <br>Bubble Tea.</h1><br>
+                        <p class="hero-description ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut <br>enim ad minim veniam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="/Assets/about-img.png" 
+                             alt="Bubble Tea" class="img-fluid ">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <span class="section-label">About Us</span><br><br>
+                        <h2 class="section-title">Our Bubble Tale</h2><br>
+                        <p class="section-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                            enim ad minim veniam.
+                        </p><br><br>
+                        <button class="btn btn-primary load-more-btn">Load More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id ="products" class="product-section py-5">
+        <div class="container">
+            <div class="product-content text-center mb-5">
+                <span class="section-label">Products</span><br><br>
+                <h2 class="section-title">Bubbles of Joy</h2>
+                <p class="section-description"><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam.
+                </p>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-image">
+                      <img src="/Assets/Milo.png" alt="Milo Bubble Tea" class="img-fluid product-img">
+                    </div>
+                    <h5 class="product-name">Milo Bubble Tea</h5>
+                  </div>
+                </div>
+              
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-card">
+                      <div class="product-image">
+                        <img src="/Assets/Strawberry.png" alt="Strawberry Bubble Tea" class="img-fluid product-img">
+                      </div>
+                      <h5 class="product-name">Strawberry Bubble Tea</h5>
+                    </div>
+                  </div>
+              
+                <div class="col-lg-3 col-md-6 mb-4">
+                  <div class="product-card">
+                    <div class="product-image">
+                      <img src="/Assets/Blueberry.png" alt="Blueberry Bubble Tea" class="img-fluid product-img">
+                    </div>
+                    <h5 class="product-name">Blueberry Bubble Tea</h5>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="product-card">
+                      <div class="product-image">
+                        <img src="/Assets/chocolate.png" alt="Chocolate Bubble Tea" class="img-fluid product-img">
+                      </div>
+                      <h5 class="product-name">Chocolate Bubble Tea</h5>
+                    </div>
+                    <br>
+                </div>
+                 <div style="text-align: center">
+                    <button class="btn btn-product load-more-btn">More Products</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotion-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-50">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="promotion-content text-white">
+                        <h2 class="promotion-title">Buy 1 Get 1 Free</h2>
+                        <br>
+                        <p class="promotion-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id ="faqs" class="faqs-section py-5">
+        <div class="container">
+            <div class="product-content text-center mb-5">
+                <span class="section-label">Testimonial</span><br><br>
+                <h2 class="section-title">Bubbles Bliss Reviews</h2>
+                <p class="section-description"><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore <br>magna aliqua. Ut enim ad minim veniam.
+                </p>
+            </div>
+            <br>
+
+            <div class="testimonial-wrapper">
+                <div class="testimonial-card">
+                  <div class="testimonial-image">
+                    <img src="/Assets/person-1.png" alt="Testimonial 1" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-content">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                    <br>
+                    <h5 class="testimonial-name">-John Treve-</h5>
+                    <div class="testimonial-stars">★★★★★</div>
+                  </div>
+                </div>
+                              
+                <div class="testimonial-card">
+                  <div class="testimonial-image">
+                    <img src="/Assets/person-1.png" alt="Testimonial 2" class="testimonial-img">
+                  </div>
+                  <div class="testimonial-content">
+                    <p class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                    <br>
+                    <h5 class="testimonial-name">-Anne Frank-</h5>
+                    <div class="testimonial-stars">★★★★★</div>
+                  </div>
+                </div>   
+              </div>
+              <br><br>
+              <div class="icon-row">
+                <img src="/Assets/Ellipse 42.png" alt="Icon 1" class="circle-icon">
+                <img src="/Assets/Ellipse 43.png" alt="Icon 2" class="circle-icon">
+                <img src="/Assets/Ellipse 43.png" alt="Icon 3" class="circle-icon">
+              </div>
+              
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="product-content text-center mb-5">
+            <span class="section-label">Contact Us</span><br><br>
+            <h2 class="section-title">Contact Bubble Bliss</h2>
+          </div>
+      
+          <div class="contact-wrapper">
+                <img class="contact-img" src="/Assets/contact-img.png" alt="Contact Image">
+                <div class="icon-text-row">
+                    <img src="/Assets/phone-icon.png" alt="Phone Icon" class="profile-img">
+                    <div class="icon-text-column">
+                        <p class="icon-name">Phone</p>
+                        <p class="profile-text">+123&nbsp; 456&nbsp; 789</p>
+                    </div>
+                </div>
+
+                <div class="icon-text-row custom-widt-1">
+                    <img src="/Assets/address-icon.png" alt="Phone Icon" class="profile-img">
+                    <div class="icon-text-column">
+                        <p class="icon-name">Address</p>
+                        <p class="profile-text">No.17, 5th Street, Colombo 7</p>
+                    </div>
+                </div>
+
+                <div class="icon-text-row custom-widt-2">
+                    <img src="/Assets/address-icon.png" alt="Phone Icon" class="profile-img">
+                    <div class="icon-text-column">
+                        <p class="icon-name">Email</p>
+                        <p class="profile-text">bubbletea@gmail.com</p>
+                    </div>
+                </div>
+
+              <div class="form-contact">
+                <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name *">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="phone" class="form-control" id="phone" placeholder="Phone *">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="7" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary contact-btn">Send</button>
+                </form>
+              </div>
+          </div>
+        </div>      
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+          <!-- Left Section: Logo and Socials -->
+          <div class="footer-left">
+            <img src="/Assets/Primary Logo.png" alt="Logo" class="footer-logo" />
+            <p class="footer-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="social-icons">
+              <img src="/Assets/Icon ionic-logo-whatsapp.png" alt="Whatsapp" />
+              <img src="/Assets/Icon awesome-facebook.png" alt="facebook" />
+              <img src="/Assets/Icon awesome-instagram.png" alt="Instergram" />
+              <img src="/Assets/Icon ionic-logo-youtube.png" alt="Youtube" />
+            </div>
+          </div>
+      
+          <!-- Middle Section: Quick Links -->
+          <div class="footer-middle">
+            <h4 style="font-size: 20px; font-weight: bold;" >Quick Links</h4>
+            <ul class="quick-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#About">About Us</a></li>
+              <li><a href="#Products">Products</a></li>
+              <li><a href="#faqs">FAQs</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+          </div>
+      
+          <!-- Right Section: Contact Info -->
+          <div class="footer-right">
+            <h4 style="font-size: 20px; font-weight: bold;">Contact Us</h4>
+            <br><br>
+            <div class="address-text">
+              <h4 style="font-weight: bold;">Address</h4>
+              <p class="text-footer" >Lorem ipsum dolor sit amet, consectetur</p>
+              <br>
+              <h4 style="font-weight: bold;">Phone</h4>
+              <p class="text-footer" >+123&nbsp; 456&nbsp; 789</p>
+              
+              
+          </div>
+          </div>
+        </div>
+        
+      </footer>
+      <!-- Bottom Row -->
+      <div class="footer-bottom">
+        
+        <p class="copyright-txt">Copyright © 2023 Bubble Tea (Pvt) Ltd. All rights reserved.</p>
+        <p class="footer-left-text">Designed & Developed By <span class="highlight">Archmage Solutions</span></p>
+      </div>
+      
+    
+</body>
+</html>
